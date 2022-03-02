@@ -10,6 +10,11 @@
             border: 1px solid black;
             border-radius: 10px;
         }
+
+        .table-flat, .th-flat, .td-flat {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
     </style>
 </head>
 <body>
@@ -38,7 +43,34 @@
           <td class="td-css">14</td>
           <td class="td-css">10</td>
         </tr>
-      </table>
+    </table>
+    <hr>
+    <table style="width:100%;margin-top: 30px;" class="table-flat">
+        <tr>
+          <th class="th-flat">Nama Barang</th>
+          <th class="th-flat">Stok</th>
+          <th class="th-flat">Harga</th>
+        </tr>
+        <tr>
+          <td class="td-flat">Kursi</td>
+          <td class="td-flat">4</td>
+          <td class="td-flat">1200000</td>
+        </tr>
+        <tr>
+          <td class="td-flat">Meja</td>
+          <td class="td-flat">18</td>
+          <td class="td-flat">600000</td>
+        </tr>
+        <tr>
+            <td class="td-flat">Lampu Belajar</td>
+            <td class="td-flat">14</td>
+            <td class="td-flat">10000000</td>
+        </tr>
+        <tr>
+            <td class="td-flat" colspan="3">1900000000000</td>
+            <td class="td-flat">10000000000</td>
+        </tr>
+    </table>
     
 </body>
 </html>
