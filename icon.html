@@ -6,6 +6,10 @@
         .body {background-color: rgb(21, 255, 0);}
         .h1   {color: blue;}
         .p    {color: red;}
+        .table-css, .th-css, .td-css {
+            border: 1px solid black;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -14,25 +18,25 @@
     <p class="h1">Frontend & Backend Developer.</p>
 
     <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-    <div style="margin-top: 90px;margin-left: 10px;color: cyan;">
+    <div style="margin-top: 90px;margin-left: 10px;color: cyan;margin-bottom: 30px;">
         <a href="index_1.html">Visit Index.HTML</a>
     </div>
 
-    <table border="6">
+    <table style="width:100%" class="table-css">
         <tr>
-          <th>Person 1</th>
-          <th>Person 2</th>
-          <th>Person 3</th>
+          <th class="th-css">Person 1</th>
+          <th class="th-css">Person 2</th>
+          <th class="th-css">Person 3</th>
         </tr>
         <tr>
-          <td>Emil</td>
-          <td>Tobias</td>
-          <td>Linus</td>
+          <td class="td-css">Emil</td>
+          <td class="td-css">Tobias</td>
+          <td class="td-css">Linus</td>
         </tr>
         <tr>
-          <td>16</td>
-          <td>14</td>
-          <td>10</td>
+          <td class="td-css">16</td>
+          <td class="td-css">14</td>
+          <td class="td-css">10</td>
         </tr>
       </table>
     
