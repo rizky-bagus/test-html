@@ -1,0 +1,119 @@
+body { margin: 0px !important; }
+
+.mt-15 {
+	margin-top: 15px !important;
+}
+
+.mr-15 {
+	margin-right: 15px !important;
+}
+
+.menu-header-panel {
+	background-color: #222;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.menu {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu-active {
+	background-color: #050505;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+
+.menu ul #menu-logo {
+	color: #000;
+	background-color: #4789ca;
+}
+
+.menu ul #menu-login {
+	background-color: #050505;
+}
+
+.menu ul a {
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: -10px;
+}
+
+.menu ul a:hover {
+	background-color: #050505;
+}
+
+.menu ul a li {
+	color: #fff;
+	width: 100%;
+}
+
+.main-home-panel {
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+
+.panel-movie {
+	padding: 15px;
+}
+
+.panel-movie:hover {
+	transition: 0.7s;
+	border: 1px solid #ddd;
+}
+
+.panel-movie img {
+	width: 200px;
+	height: 115px;
+}
+
+.movie-title {
+	display: block;
+}
+
+.movie-genre, .movie-duration {
+	display: block;
+	font-size: 10px;
+}
+
+.movie-explanation {
+	width: 82%;
+	overflow-y: scroll;
+	height: 100px;
+	text-align: justify;
+	padding: 3px;
+	font-size: 10px;
+}
+
+
+
+.label-forgot-password {
+	color: blue;
+}
+
+.input-login {
+	display: block; 
+	margin: 0 auto;
+	width: 100%;
+}
+
+.footer-panel {
+	background-color: #222;
+	width: 100%; 
+	position: fixed; 
+	bottom: 0;
+	color: #fff;
+	height: 46px;
+}
+
+.footer-panel label {
+	text-transform: uppercase;
+	padding: 10px;
+}
