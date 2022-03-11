@@ -40,12 +40,12 @@
 					<div class="col-md-6">
 						<h3 class="text-center">Login</h3>
 						<div class="mt-15 text-center">
-							<input class="input-login" type="text" placeholder="USERNAME">
-							<input class="input-login mt-15" type="password" placeholder="PASSWORD">
+							<input class="input-login" type="text" placeholder="USERNAME" id="username">
+							<input class="input-login mt-15" type="password" placeholder="PASSWORD" id="password">
 						</div>
 						<label class="label-forgot-password mt-15">Forgot Password ?</label>
 						<div class="text-right">
-							<button class="btn btn-success mt-15">Sign In</button>
+							<button class="btn btn-success mt-15" id="btn-login">Sign In</button>
 						</div>
 					</div>
 				</div>
@@ -60,4 +60,19 @@
 	<div class="footer-panel"><label>@ 0620104026 Rizky Bagus Pangestu.</label></div>
 </section>
 </body>
+<script src="../public/js/jquery-3.6.0.js" type="text/javascript" charset="utf8"></script>
+<script>
+	$(document).ready( function () {
+        $('#btn-login').click(function(){
+			let username = $('#username').val()
+			let password = $('#password').val()
+			if (username == "rizky bagus" && password == "0620104026") {
+				alert("Anda Berhasil Login");
+				
+			} else {
+				alert("Username & Password Salah");
+			}
+    	});
+    });
+</script>
 </html>

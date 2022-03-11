@@ -4,7 +4,7 @@ function getElement(elementName) {
 }
 
 function buttonTambah() {
-	// 65.00 2.1 4.2
+	
 	var text1 = parseFloat(getElement('bil1').value);
 	var text2 = parseFloat(getElement('bil2').value);
 	if (!text1 || !text2) { 
